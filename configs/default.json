@@ -1,0 +1,47 @@
+{
+  "num_pages": 4096,
+  "epochs": 40,
+  "accesses_per_epoch": 10000,
+  "tiers": [
+    {
+      "name": "local_ddr5",
+      "capacity_pages": 512,
+      "read_ns": 100.0,
+      "write_ns": 100.0,
+      "migrate_bw_gbps": 10.0,
+      "migrate_in_extra_ns": 0.0,
+      "persistent": false,
+      "emulated": false
+    },
+    {
+      "name": "cxl_dram",
+      "capacity_pages": 1536,
+      "read_ns": 250.0,
+      "write_ns": 250.0,
+      "migrate_bw_gbps": 8.0,
+      "migrate_in_extra_ns": 0.0,
+      "persistent": false,
+      "emulated": false
+    },
+    {
+      "name": "cxl_persistent_emulated",
+      "capacity_pages": 4096,
+      "read_ns": 500.0,
+      "write_ns": 1000.0,
+      "migrate_bw_gbps": 2.0,
+      "migrate_in_extra_ns": 2000.0,
+      "persistent": true,
+      "emulated": true
+    }
+  ],
+  "headroom_frac": 0.02,
+  "migration_fixed_ns": 3000.0,
+  "stall_fraction": 0.5,
+  "monitor_sample_rate": 0.2,
+  "monitor_cost_per_sample_ns": 30.0,
+  "scan_cost_per_page_ns": 5.0,
+  "pinned_fraction": 0.01,
+  "migration_fail_prob": 0.0,
+  "fail_backoff_epochs": 10,
+  "pingpong_window": 5
+}

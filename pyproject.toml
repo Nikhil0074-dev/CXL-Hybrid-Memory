@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cxltier"
+version = "1.0.0"
+description = "Trace-driven simulator and policy library for access-frequency-based page migration across DDR5, CXL DRAM and an emulated persistent CXL tier"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+cxltier = "cxltier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

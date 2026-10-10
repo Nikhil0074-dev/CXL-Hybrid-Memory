@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="sans-serif" font-size="11">
+<rect width="900" height="420" fill="white"/>
+<text x="450.0" y="24" text-anchor="middle" font-size="15" font-weight="bold">Per-epoch time, phase workload (hot set moves every 10 epochs)</text>
+<line x1="70" x2="880" y1="330.0" y2="330.0" stroke="#e0e0e0"/>
+<text x="64" y="334.0" text-anchor="end">0</text>
+<line x1="70" x2="880" y1="274.0" y2="274.0" stroke="#e0e0e0"/>
+<text x="64" y="278.0" text-anchor="end">491</text>
+<line x1="70" x2="880" y1="218.0" y2="218.0" stroke="#e0e0e0"/>
+<text x="64" y="222.0" text-anchor="end">981</text>
+<line x1="70" x2="880" y1="162.0" y2="162.0" stroke="#e0e0e0"/>
+<text x="64" y="166.0" text-anchor="end">1.47e+03</text>
+<line x1="70" x2="880" y1="106.0" y2="106.0" stroke="#e0e0e0"/>
+<text x="64" y="110.0" text-anchor="end">1.96e+03</text>
+<line x1="70" x2="880" y1="50.0" y2="50.0" stroke="#e0e0e0"/>
+<text x="64" y="54.0" text-anchor="end">2.45e+03</text>
+<text x="14" y="190.0" transform="rotate(-90 14 190.0)" text-anchor="middle">microseconds per epoch</text>
+<text x="475.0" y="360" text-anchor="middle">epoch</text>
+<polyline fill="none" stroke="#4e79a7" stroke-width="2" points="70.0,111.4 112.6,111.5 155.3,111.9 197.9,111.7 240.5,112.2 283.2,108.7 325.8,112.3 368.4,110.2 411.1,109.2 453.7,111.8 496.3,128.2 538.9,131.2 581.6,133.9 624.2,131.6 666.8,131.5 709.5,130.7 752.1,130.7 794.7,130.5 837.4,130.4 880.0,129.0"/>
+<rect x="70" y="380" width="12" height="12" fill="#4e79a7"/>
+<text x="87" y="390">static_firsttouch</text>
+<polyline fill="none" stroke="#f28e2b" stroke-width="2" points="70.0,63.3 112.6,190.2 155.3,200.6 197.9,214.8 240.5,199.4 283.2,195.5 325.8,194.9 368.4,213.7 411.1,200.6 453.7,206.5 496.3,72.9 538.9,132.1 581.6,139.0 624.2,149.7 666.8,167.8 709.5,155.8 752.1,168.0 794.7,160.1 837.4,150.8 880.0,202.4"/>
+<rect x="270" y="380" width="12" height="12" fill="#f28e2b"/>
+<text x="287" y="390">freq_only</text>
+<polyline fill="none" stroke="#e15759" stroke-width="2" points="70.0,97.9 112.6,217.7 155.3,223.0 197.9,228.0 240.5,229.7 283.2,230.8 325.8,231.5 368.4,234.2 411.1,234.5 453.7,236.8 496.3,136.3 538.9,217.0 581.6,222.0 624.2,223.0 666.8,226.5 709.5,229.3 752.1,232.7 794.7,237.3 837.4,239.3 880.0,237.9"/>
+<rect x="470" y="380" width="12" height="12" fill="#e15759"/>
+<text x="487" y="390">adaptive_full</text>
+</svg>

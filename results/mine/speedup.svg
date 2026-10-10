@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="sans-serif" font-size="11">
+<rect width="900" height="460" fill="white"/>
+<text x="450.0" y="24" text-anchor="middle" font-size="15" font-weight="bold">Policy comparison (simulation)</text>
+<line x1="70" x2="880" y1="340.0" y2="340.0" stroke="#e0e0e0"/>
+<text x="64" y="344.0" text-anchor="end">0.00</text>
+<line x1="70" x2="880" y1="282.0" y2="282.0" stroke="#e0e0e0"/>
+<text x="64" y="286.0" text-anchor="end">0.39</text>
+<line x1="70" x2="880" y1="224.0" y2="224.0" stroke="#e0e0e0"/>
+<text x="64" y="228.0" text-anchor="end">0.79</text>
+<line x1="70" x2="880" y1="166.0" y2="166.0" stroke="#e0e0e0"/>
+<text x="64" y="170.0" text-anchor="end">1.18</text>
+<line x1="70" x2="880" y1="108.0" y2="108.0" stroke="#e0e0e0"/>
+<text x="64" y="112.0" text-anchor="end">1.58</text>
+<line x1="70" x2="880" y1="50.0" y2="50.0" stroke="#e0e0e0"/>
+<text x="64" y="54.0" text-anchor="end">1.97</text>
+<text x="14" y="195.0" transform="rotate(-90 14 195.0)" text-anchor="middle">speedup vs static_firsttouch</text>
+<line x1="70" x2="880" y1="192.7" y2="192.7" stroke="#333" stroke-dasharray="4 3"/>
+<rect x="100.4" y="94.9" width="57.4" height="245.1" fill="#4e79a7"/>
+<rect x="157.8" y="95.9" width="57.4" height="244.1" fill="#f28e2b"/>
+<rect x="215.1" y="84.5" width="57.4" height="255.5" fill="#e15759"/>
+<rect x="272.5" y="90.1" width="57.4" height="249.9" fill="#76b7b2"/>
+<rect x="329.9" y="76.4" width="57.4" height="263.6" fill="#59a14f"/>
+<rect x="387.2" y="78.1" width="57.4" height="261.9" fill="#edc948"/>
+<text x="272.5" y="356" text-anchor="middle">zipf</text>
+<rect x="505.4" y="124.2" width="57.4" height="215.8" fill="#4e79a7"/>
+<rect x="562.8" y="126.7" width="57.4" height="213.3" fill="#f28e2b"/>
+<rect x="620.1" y="113.7" width="57.4" height="226.3" fill="#e15759"/>
+<rect x="677.5" y="113.7" width="57.4" height="226.3" fill="#76b7b2"/>
+<rect x="734.9" y="104.1" width="57.4" height="235.9" fill="#59a14f"/>
+<rect x="792.2" y="102.1" width="57.4" height="237.9" fill="#edc948"/>
+<text x="677.5" y="356" text-anchor="middle">phase</text>
+<rect x="70" y="390" width="12" height="12" fill="#4e79a7"/>
+<text x="87" y="400">freq_only</text>
+<rect x="240" y="390" width="12" height="12" fill="#f28e2b"/>
+<text x="257" y="400">freq_recency</text>
+<rect x="410" y="390" width="12" height="12" fill="#e15759"/>
+<text x="427" y="400">freq_hysteresis</text>
+<rect x="580" y="390" width="12" height="12" fill="#76b7b2"/>
+<text x="597" y="400">freq_cost</text>
+<rect x="750" y="390" width="12" height="12" fill="#59a14f"/>
+<text x="767" y="400">freq_cost_conf</text>
+<rect x="70" y="408" width="12" height="12" fill="#edc948"/>
+<text x="87" y="418">adaptive_full</text>
+</svg>
